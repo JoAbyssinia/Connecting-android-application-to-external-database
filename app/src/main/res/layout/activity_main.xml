@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.s.c.s.abyssinia.connectxdb.MainActivity">
+
+    <Button
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="preference" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/pre">
+
+        <TableRow>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:text="preference" />
+
+            <TextView
+                android:width="100dp"
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="vales" />
+
+            <TextView
+                android:width="100dp"
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨Check box" />
+
+            <TextView
+                android:id="@+id/chid"
+                android:background="@android:color/holo_green_light"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨RingTone" />
+
+            <TextView
+                android:maxLines="5"
+                android:width="100dp"
+                android:id="@+id/ringId"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨detail checkbox:" />
+
+            <TextView
+                android:id="@+id/detail"
+                android:paddingLeft="5dp" />
+            <TextView
+            android:maxLines="5"
+            android:maxWidth="50dp"
+            android:paddingRight="5dp"
+            android:text="activation"
+            android:layout_column="5"
+            android:layout_width="114dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨vbration" />
+
+            <TextView
+                android:id="@+id/vbid"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨airport: " />
+
+            <TextView
+                android:id="@+id/list"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@android:color/holo_blue_bright"
+                android:paddingRight="5dp"
+                android:text="፨your name: " />
+
+            <TextView
+                android:maxLines="5"
+                android:width="50dp"
+                android:id="@+id/name"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:maxLines="5"
+                android:maxWidth="50dp"
+                android:paddingRight="5dp"
+                android:text="activation"
+                android:layout_column="5" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="service">
+        <SwitchPreference
+            android:key="notify"
+            android:summary="notify when login"
+            android:title="Notification" />
+        <SwitchPreference
+            android:key="Vibrate"
+            android:summary="when password is error "
+            android:title="vibtate" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="security">
+        <PreferenceScreen
+            android:key="chenge"
+            android:summary="chenge master password"
+            android:title="Chenge password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="about">
+        <PreferenceScreen
+            android:key="about"
+            android:summary="show something about developer"
+            android:title="About developer" />
+        <intent
+            android:action="android.intent.action.CHOOSER"/>
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:key="send"
+        android:summary="if you have comment,suggestion as well as recommendation please send ass"
+        android:title="Send feedback" />
+
+</PreferenceScreen>
